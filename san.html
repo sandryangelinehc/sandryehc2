@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Webpage</title>
+    <style>
+        /* Reset some default styles */
+        body, h1, p {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Global styles */
+        body {
+            font-family: Arial, Helvetica, large sans-serif;
+            background-color: #f0f0f0;
+        }
+
+        header {
+            background-color: blue;
+            color: #fffffffd;
+            text-align: center;
+            padding: 40px;
+        }
+
+        nav {
+            background-color: blue;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li:last-child {
+            margin-right: 0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Main content styles */
+        .main-content {
+            background-color: #fff;
+            padding: 20px;
+            margin: 20px 0;
+        }
+
+        footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-logo img {
+    width: 100px;
+    height: auto;
+}
+
+.footer-info, .footer-links {
+    flex: 1;
+    margin: 10px;
+}
+
+.footer-links ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-links li {
+    margin-bottom: 5px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+}
+    </style>
+</head>
+
+<body background="./5.jpg">
+    <header>
+        <h1>ANGEL COLLEGE FOR ENGINEERING AND TECHNOLOGY
+            </h1>
+        <p>WELCOME TO THE COLLEGE OF EXECELLENCE</p>
+    </header>
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Programs</a></li>
+                <li><a href="#">Admissions</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <main class="main-content">
+            
+            <img src="7.jpg"align="center" width="100%">
+            <h2>About Our College</h2>
+            <p>Situated in the dollar city of Tirupur, Angel College of Engineering and Technology is sponsored by Angel Institutions – a public charitable trust founded by the industrialist Engineer. D. Sachithanantham, B.E.., President of Angel group of companies. The college started in 2007, Approved by AICTE, New Delhi and affiliated to Anna University, Chennai. Angel College of Engineering and Technology is the first professional degree level institution at Tirupur, a town for its remarkable enterprising spirit. The flourishing industrial environment is highly conductive for generating a high degree of employability, and it is well-equipped to meet the demands of the corporate sector.
+
+                Mission
+                “Angel College of Engineering and Technology is devoted to equip the students with knowledge, skill and attitude that continuously improve the standard of living of individuals, families industries and society on par with global standards by providing quality education in Engineering and Technology.
+                
+                ACET edify the pupil to dream and realize the professional growth in a congenial environment fashioned by versatile by faculty and facilities while enlightening them with values and characters to attain socio- economical and technological growth at global level.”
+                
+                <h1>VISION</h1>
+                <ul>
+                <li>To become the center of academic excellence by imparting quality technical education through continuous improvement.
+                </li>
+                <li>To instill interest among the students to be competitive at global level</li>
+                <li>To become a Deemed University</li>
+                <li>Angel Group of Companies</li>
+                <li>Angel Overseas Corporation</li>
+                <li>Angel Label Division</li>
+                <li>Angel Zippel India (P) Ltd.</li>
+            </ul>
+        </main>
+    </div>
+    <header>
+        <h1>College Admission</h1>
+    </header>
+    <div class="application-form">
+        <h2>Application Form</h2>
+        <form id="application-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+            <label for="course">Course:</label>
+            <select id="course" name="course" required>
+                <option value="computer-science">Computer Science</option>
+                <option value="biology">Biology</option>
+                <option value="history">History</option>
+                <option value="history">bcom ca</option>
+                <option value="history">chemistry</option>
+            </select><br>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+<script src="script1.js"></script>
+    </header>
+    <footer>
+        <p>&copy; 2023 College of Excellence</p>
+        <footer>
+            <div class="footer-container">
+                <div class="footer-logo">
+                    
+                </div>
+                <div class="footer-info">
+                    <h2>Contact Information</h2>
+                    <p>123 College Avenue</p>
+                    <p>City, State ZIP Code</p>
+                    <p>Email: info@college.edu</p>
+                    <p>Phone: (123) 456-7890</p>
+                </div>
+                <div class="footer-links">
+                    <h2>Quick Links</h2>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="programs.html">Academic Programs</a></li>
+                        <li><a href="admissions.html">Admissions</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; SANDRY ANGELIN EMERALD HEIGHTS COLLEGE FOR WOMEN</p>
+            </div>
+        </footer>
+    </footer>
+</body>
+</html>
